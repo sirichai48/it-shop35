@@ -16,6 +16,8 @@
 
                     <h2> <b>Name : </b>{{ Auth::user()->name }}<h2>
                     <h2> <b>Email : </b>{{ Auth::user()->email }}<h2>
+                    <h2> <b>Phone : </b>{{ Auth::user()->phone }}<h2>
+                    <h2> <b>Address : </b>{{ Auth::user()->address }}<h2>
                 </div>
             </div>
         </div>
